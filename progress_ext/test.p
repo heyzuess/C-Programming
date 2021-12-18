@@ -1,5 +1,0 @@
-&GLOBAL-DEFINE HelloWorldLIB C:\project\cproc\chapter_1\test.dll
-
-PROCEDURE HelloWorld EXTERNAL "{&HelloWorldLIB}" CDECL PERSISTENT:
-    DEFINE RETURN PARAMETER iRetValue AS LONG NO-UNDO.
-END PROCEDURE.
